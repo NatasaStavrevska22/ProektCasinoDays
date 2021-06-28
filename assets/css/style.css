@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Header Style */
+header{
+    background-image: linear-gradient(282deg, rgba(141, 74, 172, 0.6), rgba(218, 120, 78, 0.35)
+    ), 
+    url('../images/RBCG 1.png');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:500px;
+    position: relative;
+}
+.hero-text{
+    float: right; 
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    left: 43%;
+    transform: translateY(-50%);
+}
+.hero-text img{
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.hero-text h1{
+    color:rgb(255, 255, 255);
+    font-size:64px;
+    line-height: 75px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1% 0 3%;
+}
+button{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgba(81, 79, 194, 1);
+    color: rgb(255, 255, 255);
+    width: 240px;
+    height: 70px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    line-height: 70px;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+/* End of header style */
+
+
+/* Payment Methods Style */
+.payment-methods{
+    background: rgba(244, 249, 252, 1);
+}
+.subtitle{
+    font-size: 24px;
+    font-weight:500;
+    line-height:28px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    padding: 27px 0 50px;
+}
+.payment-cards{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.payment-cards img{
+    padding:0 10px;
+}
+
+/* End of payment methods style */
+
+
+/* Popular Games Style */
+.popular-games{
+    padding-bottom: 3%;
+}
+.popular-games h2{
+    color: rgba(14, 14, 44, 1);
+    font-size:40px;
+    line-height: 47px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    text-align: center;
+    margin: 4% 0 3%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    width:85%;
+    margin: 0 auto 35px;
+}
+.col-game{
+    flex-basis: 24%;
+    padding: 0px 38px;
+}
+.col-game img{
+    border-radius:5px;
+}
+/* End of popular games style */
+
+
+/* About style */
+.about{
+    background-image: linear-gradient(to bottom right, rgba(141, 74, 172, 0.42), rgba(218, 120, 78, 0.47)
+    ), 
+    url('../images/arka-pudota-T5FgHI_toNA-unsplash\ 1.png');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:460px;
+    position: relative;
+    padding-top:40px;
+}
+.row-elipses{
+    display: flex;
+    justify-content: center;
+}
+.elipse{
+    background-color: rgba(255, 255, 255, 0.7);
+    width:175px;
+    height:175px;
+    border-radius:50%;
+    position: relative;
+    margin: 0 30px;
+}
+.elipse img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.col-elipse p{
+    font-size:14px;
+    line-height:24px;
+    font-weight: 500;
+    text-transform:uppercase;
+    letter-spacing: -0.4px;
+    margin: 50px 0 60px;
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+
+}
+
+/* End of about style */
+
+
+/* Footer style */
+footer{
+    background-color:rgba(244, 249, 252, 1);
+
+}
+.logo-image{
+    display: flex;
+    justify-content: center;
+    padding:35px 0 30px;
+}
+.logo-image img{
+    width:255px;
+}
+.social-sharing-buttons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.icon{
+    background: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0px 15px;
+}
+.icon i{
+    color: rgba(81, 79, 194, 1);
+    font-size:22px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.casino-desc-text{
+    width:85%;
+    margin: 0 auto;
+    padding:0 80px;
+}
+.casino-desc-text p{
+    text-align:center;
+    font-size: 16px;
+    line-height:24px;
+    font-weight:500;
+}
+.copyright{
+    padding-bottom: 30px;
+}
+/* End of footer style */

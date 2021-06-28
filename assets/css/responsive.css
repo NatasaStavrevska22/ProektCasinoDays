@@ -1,0 +1,68 @@
+@media only screen and (max-width: 600px) {
+    body{
+       min-width: 400px;
+    }
+    .hero-text{
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        float: none;
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        left:0;
+        transform: none;
+    }
+    .hero-text img{
+        width: 250px;
+        padding-top: 80px;
+    }
+    .hero-text h1 {
+        font-size: 45px;
+        line-height: 52px;
+        text-align: center;
+        padding: 0px 70px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .payment-cards {
+        display: table;
+        text-align: center;
+    }
+    .row{
+        flex-direction: column;
+        margin:0 auto;
+    }
+    .popular-games {
+        padding: 50px 0;
+    }
+    .col-game img {
+        margin-bottom: 30px;
+    }
+    .col-game {
+        margin: 0 auto;
+    }
+    .about{
+        height:auto;
+        padding: 50px 0;
+    }
+    .row-elipses{
+        flex-direction: column;
+    }
+    .elipse {
+        width: 74px;
+        height: 74px;
+        margin: 0 auto;
+    }
+    .elipse img {
+        height: 35px;
+    }
+    .casino-desc-text {
+        padding: 0px 50px;
+    }
+}
